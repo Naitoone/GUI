@@ -148,6 +148,8 @@ public class MainMyWindow extends JFrame {
         cjtb.add(jtbMin);
         cjtb.add(jtbSum);
         cjtb.add(jtbAve);
+        cjtb.addSeparator();
+        cjtb.addSeparator();
         cjtb.add(jtbHelp);
         cjtb.add(jtbAbout);
 
@@ -517,9 +519,7 @@ public class MainMyWindow extends JFrame {
             });
             t.setRepeats(false);
             t.start();
-
         }
-
     }
 
     private void sumTableActionEvent(ActionEvent event) {
